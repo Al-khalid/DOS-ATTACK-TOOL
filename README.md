@@ -6,6 +6,6 @@ install
 
 1- Git Clone https://github.com/Al-khalid/DOS-ATTACK-TOOL.git
 
-2- cd Dos-Tool
+2- Cd Dos-Tool
 
 3- Python .\dos.py
