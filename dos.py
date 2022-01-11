@@ -8,8 +8,6 @@ print(
 
 '''
 )
-
-
 ## Libraries
 import os
 import sys
@@ -19,7 +17,6 @@ import socket
 import colorama
 from colorama import Fore
 colorama.init(autoreset=True)
-
 sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 bytes = random._urandom(1500)
 Print("")
