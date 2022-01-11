@@ -1,12 +1,3 @@
-## Libraries
-import os
-import sys
-import time
-import random
-import socket
-import colorama
-from colorama import Fore
-colorama.init(autoreset=True)
 print(
 '''
  ____                    _   _   _             _
@@ -17,6 +8,18 @@ print(
 
 '''
 )
+
+
+## Libraries
+import os
+import sys
+import time
+import random
+import socket
+import colorama
+from colorama import Fore
+colorama.init(autoreset=True)
+
 sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 bytes = random._urandom(1500)
 Print("")
