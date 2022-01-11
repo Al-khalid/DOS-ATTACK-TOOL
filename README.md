@@ -4,7 +4,7 @@
 
 install
 
-1- Git Clone https://github.com/4pc0/Dos-attack-tool.git
+1- Git Clone https://github.com/Al-khalid/DOS-ATTACK-TOOL.git
 
 2- cd Dos-Tool
 
